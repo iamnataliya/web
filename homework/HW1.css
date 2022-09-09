@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100;1,300&display=swap');
+
+h1 {
+    color: rgb(26, 26, 61);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', italic; 
+    text-transform: uppercase;
+    text-align: center;
+    }
+body {
+    background-color: rgb(101, 157, 206);
+}
+.main_text {
+    color: rgb(31, 31, 65);
+    font-size: 15px;
+   text-transform: lowercase; 
+    text-align: center;
+    font-family: 'Montserrat', italic; 
+
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: lowercase;
+    font-family: 'Montserrat', italic; 
+}
+.footer {
+    height: 40px;
+    background-color: blanchedalmond;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: lowercase;
+    font-family: 'Montserrat', italic; 
+}
